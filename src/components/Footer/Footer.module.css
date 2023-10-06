@@ -1,7 +1,6 @@
 .main_container {
     max-width: 1250px;
     margin: 0 auto;
-    margin-top: 20px;
     background-color: #FEF2E4;
     border: 1px solid transparent;
 }
@@ -73,9 +72,41 @@
 }
 
 .form_submit_btn {
-    width: 86%;
+    width: 80%;
     height: 30px;
     border: none;
     background-color: #E35436;
     color: white;
+}
+
+.downloadapp img {
+    width: 150px;
+    height: 50px;
+}
+
+@media(max-width:480px) {
+    .footer_div {
+        flex-direction: column;
+        gap: 20px;
+        margin: 30px auto;
+    }
+
+    .footer_devider {
+        width: auto;
+    }
+    .downloadapp {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .downloadapp img {
+        width: auto;
+        height: 40px;
+    }
+    .form_submit_btn {
+        width: 80%;
+        height: 30px;
+        border: none;
+        background-color: #E35436;
+        color: white;
+    }
 }

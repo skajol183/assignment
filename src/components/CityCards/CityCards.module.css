@@ -1,0 +1,29 @@
+.main_container {
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.aligner_div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+@media(max-width:480px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}

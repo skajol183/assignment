@@ -13,8 +13,8 @@ const Footer = () => {
                     <img src={Logo} alt="main_logo" />
                     <p className={styles.p}>BanquetBooking is committed towards building an organization centred on the highest standards of transparency and corporate.</p>
                     <div className={styles.downloadapp}>
-                        <img style={{ width: "150px", height: "50px" }} src={PlayStore} alt="downloadapp" />
-                        <img style={{ width: "150px", height: "50px" }} src={AppStore} alt="downloadapp" />
+                        <img src={PlayStore} alt="downloadapp" />
+                        <img src={AppStore} alt="downloadapp" />
                     </div>
                 </div>
                 <div className={styles.footer_devider}>

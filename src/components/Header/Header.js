@@ -4,6 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaEdit, FaShoppingCart } from 'rea
 import { LiaGoogle } from 'react-icons/lia';
 import { BsFillPersonFill, BsCalendar3 } from 'react-icons/bs';
 import { IoMdArrowDropdown, IoMdPeople, IoIosSearch } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from "../../assets/images/Logo.png";
 import PhoneIcon from "../../assets/images/Phone.png";
 import ClockIcon from "../../assets/images/Clock.png";
@@ -16,6 +17,7 @@ const Header = () => {
             <div className={styles.social_media_container}>
                 <div className={styles.social_media_bg}>
                     <div className={styles.social_media_left_box}>
+                        <div className={styles.mobile}><GiHamburgerMenu /></div>
                         <FaFacebookF />
                         <FaTwitter />
                         <LiaGoogle />
@@ -26,6 +28,7 @@ const Header = () => {
                         <FaEdit /> Register Now |
                         <FaShoppingCart /> Become Member
                     </div>
+                    <img className={`${styles.mobile} ${styles.mobileLogo}`} src={Logo} alt="main_logo" />
                 </div>
             </div>
             {/* ---------logo div------- */}

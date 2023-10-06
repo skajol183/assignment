@@ -163,7 +163,7 @@
 
 .banner_bottom_strip {
     position: absolute;
-    bottom: 0;
+    bottom: -2%;
     left: 10%;
     background-color: white;
     padding: 0 20px;
@@ -211,4 +211,40 @@
     align-items: center;
     margin-top: 10px;
     cursor: pointer;
+}
+.mobile{
+    display: none;
+}
+
+@media(max-width:480px) {
+    .social_media_rgt_box {
+        display: none;
+    }
+
+    .logo_main_div {
+        display: none;
+    }
+
+    .banner_bottom_strip {
+       display: none;
+    }
+    .city_wise_nav_wrapper ul{
+        display: none;
+    }
+    .search_bar_div {
+        width: 100%;
+    }
+
+    .banner_wrapper img{
+        height: 200px;
+    }
+    .banner {
+        top: 25%;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobileLogo{
+        width: 150px;
+    }
 }

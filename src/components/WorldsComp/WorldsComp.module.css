@@ -1,0 +1,22 @@
+.main_container {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #FEF2E4;
+    border: 1px solid transparent;
+}
+
+.aligner_div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aligner_div img {
+    width: 90%;
+    height: 400px;
+}
+
+@media(max-width:400px) {
+    .main_container {
+        display: none;
+    }
+}
