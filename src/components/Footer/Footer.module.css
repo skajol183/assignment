@@ -1,0 +1,82 @@
+.main_container {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #FEF2E4;
+    border: 1px solid transparent;
+}
+
+.aligner_div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer_copyright {
+    background-color: #EEC004;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    gap: 50px;
+}
+
+.footer_devider {
+    width: 40%;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul li {
+    cursor: pointer;
+}
+
+.ul a {
+    text-decoration: none;
+}
+
+.p,
+.ul li {
+    font-size: 12px;
+    color: grey;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.downloadapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    width: 80%;
+    height: 30px;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.form_submit_btn {
+    width: 82%;
+    height: 30px;
+    border: none;
+    background-color: #E35436;
+    color: white;
+
+}
