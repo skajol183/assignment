@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/assignment/static/css/main.562976ff.css",
+    "main.js": "/assignment/static/js/main.32311753.js",
+    "static/js/787.5480e000.chunk.js": "/assignment/static/js/787.5480e000.chunk.js",
+    "static/media/WorldsComp.png": "/assignment/static/media/WorldsComp.02ce9b4eff7401a42818.png",
+    "static/media/Banner_main.jpg": "/assignment/static/media/Banner_main.7ec2de304f4261ab5964.jpg",
+    "static/media/app_store.jpg": "/assignment/static/media/app_store.2e65ce4071f1f9f8b7a6.jpg",
+    "static/media/play_store.jpg": "/assignment/static/media/play_store.4bcca1782dd50f06172a.jpg",
+    "static/media/channai.png": "/assignment/static/media/channai.d4c4f2b3658df061d72b.png",
+    "static/media/gurugaon.png": "/assignment/static/media/gurugaon.e22d039730a3d4c2821c.png",
+    "static/media/hyderabad.png": "/assignment/static/media/hyderabad.c61958f3b878e8603482.png",
+    "static/media/delhi.png": "/assignment/static/media/delhi.427109867a7abc63f2a3.png",
+    "index.html": "/assignment/index.html",
+    "main.562976ff.css.map": "/assignment/static/css/main.562976ff.css.map",
+    "main.32311753.js.map": "/assignment/static/js/main.32311753.js.map",
+    "787.5480e000.chunk.js.map": "/assignment/static/js/787.5480e000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.562976ff.css",
+    "static/js/main.32311753.js"
+  ]
+}
